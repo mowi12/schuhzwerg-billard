@@ -1,0 +1,25 @@
+{
+    "$schema": "./results.schema.json",
+    "players": [
+        {
+            "name": "Moritz",
+            "games": 2,
+            "wins": 2
+        },
+        {
+            "name": "Tim",
+            "games": 2,
+            "wins": 0
+        }
+    ],
+    "games": [
+        {
+            "players": ["Moritz", "Tim"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Tim"],
+            "winner": "Moritz"
+        }
+    ]
+}
