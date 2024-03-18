@@ -1,5 +1,31 @@
 {
     "$schema": "./results.schema.json",
-    "players": [],
-    "games": []
+    "players": [
+        {
+            "name": "Pascalis",
+            "games": 2,
+            "wins": 2
+        },
+        {
+            "name": "Tim",
+            "games": 2,
+            "wins": 0
+        }
+    ],
+    "games": [
+        {
+            "players": [
+                "Pascalis",
+                "Tim"
+            ],
+            "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Pascalis",
+                "Tim"
+            ],
+            "winner": "Pascalis"
+        }
+    ]
 }

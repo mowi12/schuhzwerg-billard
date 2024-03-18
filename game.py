@@ -6,9 +6,9 @@ import json
 def main():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("-p1")
-    parser.add_argument("-p2")
-    parser.add_argument("-w")
+    parser.add_argument("p1")
+    parser.add_argument("p2")
+    parser.add_argument("w")
 
     args = parser.parse_args()
 
@@ -44,10 +44,6 @@ def main():
         f.write(json.dumps(results, indent=4))
 
     print("Done!")
-
-
-def check_args(args):
-    pass
 
 
 if __name__ == "__main__":
