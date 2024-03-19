@@ -24,4 +24,4 @@
 
 ### Adding a new game
 
-`python game.py -p1 <Player1> -p2 <Player2> -w <Player1|Player2>`
+`python game.py p1 <Player1> p2 <Player2> w <Player1|Player2>`
