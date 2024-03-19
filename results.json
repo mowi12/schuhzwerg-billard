@@ -3,8 +3,8 @@
     "players": [
         {
             "name": "Pascalis",
-            "games": 7,
-            "wins": 6
+            "games": 8,
+            "wins": 7
         },
         {
             "name": "Tim",
@@ -23,65 +23,45 @@
         },
         {
             "name": "Moritz",
-            "games": 2,
+            "games": 3,
             "wins": 1
         }
     ],
     "games": [
         {
-            "players": [
-                "Pascalis",
-                "Tim"
-            ],
+            "players": ["Pascalis", "Tim"],
             "winner": "Pascalis"
         },
         {
-            "players": [
-                "Pascalis",
-                "Tim"
-            ],
+            "players": ["Pascalis", "Tim"],
             "winner": "Pascalis"
         },
         {
-            "players": [
-                "Pascalis",
-                "Stefan"
-            ],
+            "players": ["Pascalis", "Stefan"],
             "winner": "Pascalis"
         },
         {
-            "players": [
-                "Tim",
-                "Stefan"
-            ],
+            "players": ["Tim", "Stefan"],
             "winner": "Tim"
         },
         {
-            "players": [
-                "Pascalis",
-                "Tim"
-            ],
+            "players": ["Pascalis", "Tim"],
             "winner": "Pascalis"
         },
         {
-            "players": [
-                "Pascalis",
-                "Bianca"
-            ],
+            "players": ["Pascalis", "Bianca"],
             "winner": "Pascalis"
         },
         {
-            "players": [
-                "Pascalis",
-                "Moritz"
-            ],
+            "players": ["Pascalis", "Moritz"],
             "winner": "Pascalis"
         },
         {
-            "players": [
-                "Moritz",
-                "Pascalis"
-            ],
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
             "winner": "Moritz"
         }
     ]
