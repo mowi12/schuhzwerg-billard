@@ -8,8 +8,8 @@
         },
         {
             "name": "Tim",
-            "games": 4,
-            "wins": 1
+            "games": 5,
+            "wins": 2
         },
         {
             "name": "Stefan",
@@ -18,63 +18,113 @@
         },
         {
             "name": "Bianca",
-            "games": 1,
-            "wins": 0
+            "games": 2,
+            "wins": 1
         },
         {
             "name": "Moritz",
-            "games": 6,
+            "games": 8,
             "wins": 2
         }
     ],
     "games": [
         {
-            "players": ["Pascalis", "Tim"],
+            "players": [
+                "Pascalis",
+                "Tim"
+            ],
             "winner": "Pascalis"
         },
         {
-            "players": ["Pascalis", "Tim"],
+            "players": [
+                "Pascalis",
+                "Tim"
+            ],
             "winner": "Pascalis"
         },
         {
-            "players": ["Pascalis", "Stefan"],
+            "players": [
+                "Pascalis",
+                "Stefan"
+            ],
             "winner": "Pascalis"
         },
         {
-            "players": ["Tim", "Stefan"],
+            "players": [
+                "Tim",
+                "Stefan"
+            ],
             "winner": "Tim"
         },
         {
-            "players": ["Pascalis", "Tim"],
+            "players": [
+                "Pascalis",
+                "Tim"
+            ],
             "winner": "Pascalis"
         },
         {
-            "players": ["Pascalis", "Bianca"],
+            "players": [
+                "Pascalis",
+                "Bianca"
+            ],
             "winner": "Pascalis"
         },
         {
-            "players": ["Pascalis", "Moritz"],
+            "players": [
+                "Pascalis",
+                "Moritz"
+            ],
             "winner": "Pascalis"
         },
         {
-            "players": ["Pascalis", "Moritz"],
+            "players": [
+                "Pascalis",
+                "Moritz"
+            ],
             "winner": "Pascalis"
         },
         {
-            "players": ["Moritz", "Pascalis"],
+            "players": [
+                "Moritz",
+                "Pascalis"
+            ],
             "winner": "Moritz"
         },
         {
-            "players": ["Moritz", "Pascalis"],
+            "players": [
+                "Moritz",
+                "Pascalis"
+            ],
             "winner": "Pascalis"
         },
         {
-            "players": ["Moritz", "Pascalis"],
+            "players": [
+                "Moritz",
+                "Pascalis"
+            ],
             "winner": "Pascalis"
         },
         {
-            "players": ["Moritz", "Pascalis"],
+            "players": [
+                "Moritz",
+                "Pascalis"
+            ],
             "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Tim",
+                "Moritz"
+            ],
+            "winner": "Tim"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Bianca"
+            ],
+            "winner": "Bianca"
         }
     ]
 }
