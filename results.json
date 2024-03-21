@@ -3,13 +3,13 @@
     "players": [
         {
             "name": "Pascalis",
-            "games": 11,
+            "games": 12,
             "wins": 9
         },
         {
             "name": "Tim",
-            "games": 5,
-            "wins": 2
+            "games": 6,
+            "wins": 3
         },
         {
             "name": "Stefan",
@@ -23,8 +23,8 @@
         },
         {
             "name": "Moritz",
-            "games": 8,
-            "wins": 2
+            "games": 10,
+            "wins": 3
         }
     ],
     "games": [
@@ -125,6 +125,20 @@
                 "Bianca"
             ],
             "winner": "Bianca"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Pascalis"
+            ],
+            "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Tim"
+            ],
+            "winner": "Tim"
         }
     ]
 }
