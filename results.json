@@ -3,8 +3,8 @@
     "players": [
         {
             "name": "Pascalis",
-            "games": 19,
-            "wins": 14
+            "games": 21,
+            "wins": 15
         },
         {
             "name": "Tim",
@@ -23,8 +23,8 @@
         },
         {
             "name": "Moritz",
-            "games": 18,
-            "wins": 5
+            "games": 20,
+            "wins": 6
         },
         {
             "name": "Stefanos",
@@ -186,6 +186,20 @@
                 "Moritz"
             ],
             "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Pascalis"
+            ],
+            "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Pascalis"
+            ],
+            "winner": "Moritz"
         },
         {
             "players": [
