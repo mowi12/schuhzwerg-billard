@@ -1,5 +1,6 @@
 export interface LeaderboardEntry {
     name: string;
+    winrate: number;
     wins: number;
     participations: number;
     place: number;

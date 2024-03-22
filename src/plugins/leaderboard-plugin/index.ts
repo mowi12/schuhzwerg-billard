@@ -28,6 +28,11 @@ function sortLeaderBoard(a: LeaderboardEntry, b: LeaderboardEntry): number {
         return minimumParticipationComparison;
     }
 
+    const winrateComparison = b.winrate - a.winrate;
+    if (winrateComparison !== 0) {
+        return winrateComparison;
+    }
+
     const winsComparison = b.wins - a.wins;
     if (winsComparison !== 0) {
         return winsComparison;
@@ -48,6 +53,7 @@ function initializeParticipants(leaderboard: LeaderboardEntry[], games: Games) {
             // If there's no match, create a new entry with default values
             match = {
                 name: participant,
+                winrate: 0,
                 wins: 0,
                 participations: 0,
                 place: 0,
@@ -56,6 +62,7 @@ function initializeParticipants(leaderboard: LeaderboardEntry[], games: Games) {
         }
         match.participations++;
         match.wins += games.winner === participant ? 1 : 0;
+        match.winrate = match.wins / match.participations;
     }
 }
 
