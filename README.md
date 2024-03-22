@@ -1,4 +1,4 @@
-<p align="center">
+o<p align="center">
     <a href="https://schuhzwerg.com">
         <img src="static/img/logo.png" alt="logo" width="300">
     </a>
@@ -24,4 +24,4 @@
 
 ### Adding a new game
 
-`python game.py p1 <Player1> p2 <Player2> w <Player1|Player2>`
+`./game.py <Player1> <Player2> <Player1|Player2>`
