@@ -8,8 +8,8 @@
         },
         {
             "name": "Tim",
-            "games": 16,
-            "wins": 8
+            "games": 15,
+            "wins": 7
         },
         {
             "name": "Stefan",
@@ -23,7 +23,7 @@
         },
         {
             "name": "Moritz",
-            "games": 29,
+            "games": 28,
             "wins": 9
         },
         {
@@ -350,13 +350,6 @@
                 "Moritz"
             ],
             "winner": "Pascalis"
-        },
-        {
-            "players": [
-                "Moritz",
-                "Tim"
-            ],
-            "winner": "Tim"
         },
         {
             "players": [
