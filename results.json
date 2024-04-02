@@ -7,13 +7,13 @@
         },
         {
             "name": "Bianca",
-            "games": 2,
+            "games": 3,
             "wins": 0
         },
         {
             "name": "Pascalis",
-            "games": 2,
-            "wins": 1
+            "games": 3,
+            "wins": 2
         }
     ],
     "games": [
@@ -30,6 +30,13 @@
                 "Pascalis"
             ],
             "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Pascalis",
+                "Bianca"
+            ],
+            "winner": "Pascalis"
         },
         {
             "players": [
