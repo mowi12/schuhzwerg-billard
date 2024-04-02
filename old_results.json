@@ -3,32 +3,27 @@
         {
             "name": "Moritz",
             "games": 4,
-            "wins": 4,
-            "elo": 1058
+            "wins": 4
         },
         {
             "name": "Bianca",
             "games": 4,
-            "wins": 0,
-            "elo": 941
+            "wins": 0
         },
         {
             "name": "Pascalis",
             "games": 2,
-            "wins": 1,
-            "elo": 1001
+            "wins": 1
         },
         {
             "name": "Stefan",
             "games": 1,
-            "wins": 0,
-            "elo": 985
+            "wins": 0
         },
         {
             "name": "Stoffi",
             "games": 1,
-            "wins": 1,
-            "elo": 1015
+            "wins": 1
         }
     ],
     "games": [

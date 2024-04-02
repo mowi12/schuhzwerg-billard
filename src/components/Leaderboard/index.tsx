@@ -7,7 +7,7 @@ interface LeaderboardProps {
 
 type Order = "asc" | "desc";
 
-const headers = ["Platz", "Name", "Winrate", "Siege", "Teilnahmen"];
+const headers = ["Platz", "Name", "Elo", "Winrate", "Siege", "Teilnahmen"];
 
 interface Key {
     name: keyof LeaderboardEntry;
@@ -22,6 +22,10 @@ const keys: Key[] = [
     {
         name: "name",
         order: "asc",
+    },
+    {
+        name: "elo",
+        order: "desc",
     },
     {
         name: "winrate",
