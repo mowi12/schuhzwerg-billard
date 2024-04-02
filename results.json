@@ -7,7 +7,7 @@
         },
         {
             "name": "Bianca",
-            "games": 2,
+            "games": 3,
             "wins": 0
         },
         {
@@ -19,6 +19,11 @@
             "name": "Stefan",
             "games": 1,
             "wins": 0
+        },
+        {
+            "name": "Stoffi",
+            "games": 1,
+            "wins": 1
         }
     ],
     "games": [
@@ -49,6 +54,13 @@
                 "Stefan"
             ],
             "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Bianca",
+                "Stoffi"
+            ],
+            "winner": "Stoffi"
         }
     ]
 }
