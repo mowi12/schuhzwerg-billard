@@ -2,12 +2,12 @@
     "players": [
         {
             "name": "Moritz",
-            "games": 3,
-            "wins": 3
+            "games": 4,
+            "wins": 4
         },
         {
             "name": "Bianca",
-            "games": 3,
+            "games": 4,
             "wins": 0
         },
         {
@@ -61,6 +61,13 @@
                 "Stoffi"
             ],
             "winner": "Stoffi"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Bianca"
+            ],
+            "winner": "Moritz"
         }
     ]
 }
