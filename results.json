@@ -1,0 +1,23 @@
+{
+    "players": [
+        {
+            "name": "Moritz",
+            "games": 1,
+            "wins": 1
+        },
+        {
+            "name": "Bianca",
+            "games": 1,
+            "wins": 0
+        }
+    ],
+    "games": [
+        {
+            "players": [
+                "Moritz",
+                "Bianca"
+            ],
+            "winner": "Moritz"
+        }
+    ]
+}
