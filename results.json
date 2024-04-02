@@ -2,11 +2,16 @@
     "players": [
         {
             "name": "Moritz",
-            "games": 1,
-            "wins": 1
+            "games": 2,
+            "wins": 2
         },
         {
             "name": "Bianca",
+            "games": 1,
+            "wins": 0
+        },
+        {
+            "name": "Pascalis",
             "games": 1,
             "wins": 0
         }
@@ -16,6 +21,13 @@
             "players": [
                 "Moritz",
                 "Bianca"
+            ],
+            "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Pascalis"
             ],
             "winner": "Moritz"
         }
