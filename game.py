@@ -7,20 +7,20 @@ import math
 class EloRatingSystem:
     def __init__(self, k_factor=32):
         self.k_factor = k_factor
-    
+
     def expected_score(self, rating_a, rating_b):
         return 1 / (1 + math.pow(10, (rating_b - rating_a) / 400))
-    
+
     def update_ratings(self, rating_a, rating_b, score_a):
         expected_score_a = self.expected_score(rating_a, rating_b)
         expected_score_b = self.expected_score(rating_b, rating_a)
-        
+
         new_rating_a = rating_a + self.k_factor * (score_a - expected_score_a)
         new_rating_b = rating_b + self.k_factor * ((1 - score_a) - expected_score_b)
-        
-        print(f"Elo delta: {new_rating_a - rating_a}")
+
+        print(f"Elo delta: {int(round(new_rating_a - rating_a))}")
         return int(round(new_rating_a)), int(round(new_rating_b))
-    
+
 
 def main():
     elo_system = EloRatingSystem()
@@ -67,7 +67,7 @@ def main():
 
     player1_rating = 0
     player2_rating = 0
-    
+
     player1_score = args.w == args.p1
     if args.w == args.p1:
         player1_score = 1
