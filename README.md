@@ -25,7 +25,3 @@ o<p align="center">
 ### Adding a new game
 
 `./game.py <Player1> <Player2> <Player1|Player2>`
-
-### Removing the last game
-
-`./remove.py`
