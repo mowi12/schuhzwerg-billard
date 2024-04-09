@@ -2,33 +2,33 @@
     "players": [
         {
             "name": "Moritz",
-            "games": 15,
-            "wins": 12,
-            "elo": 1108
+            "games": 16,
+            "wins": 13,
+            "elo": 1115
         },
         {
             "name": "Bianca",
-            "games": 10,
+            "games": 11,
             "wins": 0,
-            "elo": 878
+            "elo": 871
         },
         {
             "name": "Pascalis",
-            "games": 18,
-            "wins": 10,
-            "elo": 1024
+            "games": 20,
+            "wins": 11,
+            "elo": 1023
         },
         {
             "name": "Stefan",
-            "games": 6,
+            "games": 7,
             "wins": 2,
-            "elo": 976
+            "elo": 961
         },
         {
             "name": "Stoffi",
-            "games": 4,
-            "wins": 3,
-            "elo": 1031
+            "games": 5,
+            "wins": 4,
+            "elo": 1047
         },
         {
             "name": "Flo",
@@ -224,6 +224,27 @@
             "players": [
                 "Pascalis",
                 "Bianca"
+            ],
+            "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Stoffi",
+                "Pascalis"
+            ],
+            "winner": "Stoffi"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Bianca"
+            ],
+            "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Stefan",
+                "Pascalis"
             ],
             "winner": "Pascalis"
         }
