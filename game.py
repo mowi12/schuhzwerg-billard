@@ -26,18 +26,19 @@ def main():
     elo_system = EloRatingSystem()
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("p1")
-    parser.add_argument("p2")
-    parser.add_argument("w")
+    parser.add_argument("p1", help="Name of first player.")
+    parser.add_argument("p2", help="Name of second player.")
+    parser.add_argument("-w", help="Name of winner, omit if draw. Has to be name of p1 or p2.")
 
     args = parser.parse_args()
 
     if (args.p1 == args.p2):
         print("Players cannot be the same!")
         return
-    if (args.w != args.p1 and args.w != args.p2):
-        print("Winner must be one of the players!")
-        return
+    if args.w:
+        if (args.w != args.p1 and args.w != args.p2):
+            print("Winner must be one of the players!")
+            return
 
     results = json.loads(open("./results.json").read())
 
@@ -69,10 +70,13 @@ def main():
     player2_rating = 0
 
     player1_score = args.w == args.p1
-    if args.w == args.p1:
-        player1_score = 1
+    if args.w:
+        if args.w == args.p1:
+            player1_score = 1
+        else:
+            player1_score = 0
     else:
-        player1_score = 0
+        player1_score = 0.5
 
     for player in results["players"]:
         if player["name"] == args.p1:
@@ -88,7 +92,7 @@ def main():
         if player["name"] == args.p2:
             player["elo"] = new_player2_rating
 
-    results["games"].append({"players":[args.p1, args.p2], "winner": args.w})
+    results["games"].append({"players":[args.p1, args.p2], "winner": args.w if args.w else ""})
 
     with open("./results.json", "w") as f:
         f.write(json.dumps(results, indent=4))
