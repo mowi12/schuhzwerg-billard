@@ -1,4 +1,4 @@
-o<p align="center">
+<p align="center">
     <a href="https://schuhzwerg.com">
         <img src="static/img/logo.png" alt="logo" width="300">
     </a>
