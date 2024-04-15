@@ -89,8 +89,20 @@ def main():
     for player in results["players"]:
         if player["name"] == args.p1:
             player["elo"] = new_player1_rating
+
+            if new_player1_rating > results["highscore"]["elo"]:
+                results["highscore"] = {
+                        "player": player["name"],
+                        "elo": new_player1_rating
+                    }
         if player["name"] == args.p2:
             player["elo"] = new_player2_rating
+
+            if new_player2_rating > results["highscore"]["elo"]:
+                results["highscore"] = {
+                        "player": player["name"],
+                        "elo": new_player2_rating
+                    }
 
     results["games"].append({"players":[args.p1, args.p2], "winner": args.w if args.w else ""})
 
