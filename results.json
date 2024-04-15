@@ -14,15 +14,15 @@
         },
         {
             "name": "Pascalis",
-            "games": 31,
-            "wins": 20,
-            "elo": 1118
+            "games": 32,
+            "wins": 21,
+            "elo": 1127
         },
         {
             "name": "Stefan",
-            "games": 8,
+            "games": 9,
             "wins": 2,
-            "elo": 948
+            "elo": 939
         },
         {
             "name": "Stoffi",
@@ -43,6 +43,10 @@
             "elo": 1020
         }
     ],
+    "highscore": {
+        "player": "Pascalis",
+        "elo": 1127
+    },
     "games": [
         {
             "players": [
@@ -374,6 +378,13 @@
                 "Tim"
             ],
             "winner": "Tim"
+        },
+        {
+            "players": [
+                "Pascalis",
+                "Stefan"
+            ],
+            "winner": "Pascalis"
         }
     ]
 }
