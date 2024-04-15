@@ -26,9 +26,9 @@
         },
         {
             "name": "Stoffi",
-            "games": 9,
-            "wins": 7,
-            "elo": 1065
+            "games": 10,
+            "wins": 8,
+            "elo": 1078
         },
         {
             "name": "Flo",
@@ -41,6 +41,12 @@
             "games": 1,
             "wins": 1,
             "elo": 1020
+        },
+        {
+            "name": "Peter",
+            "games": 1,
+            "wins": 0,
+            "elo": 987
         }
     ],
     "highscore": {
@@ -389,6 +395,13 @@
         {
             "players": [
                 "Stefan",
+                "Stoffi"
+            ],
+            "winner": "Stoffi"
+        },
+        {
+            "players": [
+                "Peter",
                 "Stoffi"
             ],
             "winner": "Stoffi"
