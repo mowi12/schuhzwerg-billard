@@ -1,10 +1,9 @@
 export interface LeaderboardEntry {
-    name: string;
     elo: number;
+    name: string;
     winrate: number;
     wins: number;
     participations: number;
-    place: number;
 }
 
 export interface Games {
@@ -14,6 +13,7 @@ export interface Games {
 }
 
 export interface LeadboardData {
+    minimumParticipationThreshold: number;
     singleLeaderboard: LeaderboardEntry[];
     games: Games[];
 }

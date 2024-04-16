@@ -5,7 +5,7 @@ import {
 } from "@site/src/types/leaderboard";
 import fs from "fs";
 
-const minimumParticipationThreshold = 3;
+const minimumParticipationThreshold = 5;
 
 interface GameData {
     games: Games[];
@@ -29,6 +29,16 @@ function getEloValues(): { [playerName: string]: number } {
 }
 
 function sortLeaderBoard(a: LeaderboardEntry, b: LeaderboardEntry): number {
+    // People who have only played a few games are ranked at the bottom of the list
+    let minimumParticipationComparison =
+        a.participations < minimumParticipationThreshold ? 1 : 0;
+    minimumParticipationComparison -=
+        b.participations < minimumParticipationThreshold ? 1 : 0;
+    if (minimumParticipationComparison !== 0) {
+        return minimumParticipationComparison;
+    }
+
+    // High Elo, high winrate, high wins, low participations
     const eloComparison = b.elo - a.elo;
     if (eloComparison !== 0) {
         return eloComparison;
@@ -64,7 +74,6 @@ function initializeParticipants(leaderboard: LeaderboardEntry[], games: Games) {
                 elo: 1000,
                 wins: 0,
                 participations: 0,
-                place: 0,
             };
             leaderboard.push(match);
         }
@@ -84,11 +93,6 @@ function fillLeaderboardData(data: GameData): LeaderboardEntry[] {
     }
 
     leaderboard.sort(sortLeaderBoard);
-
-    for (let i = 0; i < leaderboard.length; i++) {
-        const entry = leaderboard[i];
-        entry.place = i + 1;
-    }
 
     return leaderboard;
 }
@@ -114,6 +118,7 @@ async function leaderboardPlugin(_context: unknown, _options: unknown) {
             }
 
             setGlobalData({
+                minimumParticipationThreshold,
                 singleLeaderboard,
                 games: content.games,
             });

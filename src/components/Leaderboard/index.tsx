@@ -3,11 +3,12 @@ import { LeaderboardEntry } from "@site/src/types/leaderboard";
 
 interface LeaderboardProps {
     data: LeaderboardEntry[];
+    minimumParticipationThreshold: number;
 }
 
 type Order = "asc" | "desc";
 
-const headers = ["Platz", "Name", "Elo", "Winrate", "Siege", "Teilnahmen"];
+const headers = ["Elo", "Name", "Winrate", "Siege", "Teilnahmen"];
 
 interface Key {
     name: keyof LeaderboardEntry;
@@ -16,16 +17,12 @@ interface Key {
 
 const keys: Key[] = [
     {
-        name: "place",
-        order: "asc",
+        name: "elo",
+        order: "desc",
     },
     {
         name: "name",
         order: "asc",
-    },
-    {
-        name: "elo",
-        order: "desc",
     },
     {
         name: "winrate",
@@ -122,7 +119,7 @@ function onHeaderClick(
 }
 
 export default function Leaderboard(props: LeaderboardProps) {
-    const { data } = props;
+    const { data, minimumParticipationThreshold } = props;
     const [sortConfig, setSortConfig] = React.useState(oldSortConfig);
 
     React.useMemo(() => {
@@ -131,6 +128,11 @@ export default function Leaderboard(props: LeaderboardProps) {
 
     return (
         <div>
+            <i>
+                Notiz: Spieler mit weniger als
+                {` ${minimumParticipationThreshold} `}
+                Teilnahmen werden zuletzt gelistet.
+            </i>
             <table className="leaderboard-table">
                 <thead>
                     <tr>

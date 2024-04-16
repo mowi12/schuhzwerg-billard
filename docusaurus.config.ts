@@ -1,10 +1,22 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import { execSync } from "child_process";
+import { version } from "./package.json";
+
+function getLastUpdate() {
+    const date = execSync("git log -1 --pretty=%cd --date=format:%Y-%m-%d")
+        .toString()
+        .trim();
+    return new Date(date).toLocaleDateString(undefined, {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+    });
+}
 
 const config: Config = {
     title: "Schuhzwerg Billard",
-    tagline: "",
     favicon: "img/favicon.ico",
 
     // Set the production url of your site here
@@ -52,7 +64,7 @@ const config: Config = {
             hideOnScroll: true,
             items: [
                 {
-                    to: "docs/results/",
+                    to: "docs/results",
                     label: "Ergebnisse",
                     position: "left",
                 },
@@ -65,7 +77,9 @@ const config: Config = {
         },
         footer: {
             style: "dark",
-            copyright: `Copyright © ${new Date().getFullYear()} Moritz Wieland. Built with Docusaurus.`,
+            copyright: `Version <a href="https://github.com/mowi12/schuhzwerg-billard/"
+            target="_blank" rel="noreferrer">${version}</a> (last update ${getLastUpdate()})  <br>
+            Copyright © ${new Date().getFullYear()} Moritz Wieland. Built with Docusaurus.`,
         },
         prism: {
             theme: prismThemes.github,
