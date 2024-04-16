@@ -69,9 +69,9 @@ function initializeParticipants(leaderboard: LeaderboardEntry[], games: Games) {
         if (match === undefined) {
             // If there's no match, create a new entry with default values
             match = {
+                elo: 1000,
                 name: participant,
                 winrate: 0,
-                elo: 1000,
                 wins: 0,
                 participations: 0,
             };

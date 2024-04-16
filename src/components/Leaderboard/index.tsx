@@ -18,7 +18,7 @@ interface Key {
 const keys: Key[] = [
     {
         name: "elo",
-        order: "desc",
+        order: "asc",
     },
     {
         name: "name",
