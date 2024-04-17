@@ -14,21 +14,21 @@
         },
         {
             "name": "Pascalis",
-            "games": 35,
+            "games": 36,
             "wins": 23,
-            "elo": 1117
+            "elo": 1093
         },
         {
             "name": "Stefan",
-            "games": 10,
-            "wins": 2,
-            "elo": 928
+            "games": 11,
+            "wins": 3,
+            "elo": 952
         },
         {
             "name": "Stoffi",
-            "games": 11,
-            "wins": 9,
-            "elo": 1089
+            "games": 12,
+            "wins": 10,
+            "elo": 1101
         },
         {
             "name": "Flo",
@@ -47,6 +47,12 @@
             "games": 1,
             "wins": 0,
             "elo": 987
+        },
+        {
+            "name": "Player1",
+            "games": 1,
+            "wins": 0,
+            "elo": 988
         }
     ],
     "highscore": {
@@ -440,6 +446,20 @@
                 "Bianca"
             ],
             "winner": "Bianca"
+        },
+        {
+            "players": [
+                "Stoffi",
+                "Player1"
+            ],
+            "winner": "Stoffi"
+        },
+        {
+            "players": [
+                "Pascalis",
+                "Stefan"
+            ],
+            "winner": "Stefan"
         }
     ]
 }
