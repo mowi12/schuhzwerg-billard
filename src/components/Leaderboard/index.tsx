@@ -134,6 +134,8 @@ export default function Leaderboard(props: LeaderboardProps) {
                 {` ${minimumParticipationThreshold} `}
                 Teilnahmen werden zuletzt gelistet.
             </i>
+            <br />
+            <br />
             <table className="leaderboard-table">
                 <thead>
                     <tr>
