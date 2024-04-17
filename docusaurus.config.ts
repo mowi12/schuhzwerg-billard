@@ -69,6 +69,19 @@ const config: Config = {
                     position: "left",
                 },
                 {
+                    type: "dropdown",
+                    label: "Regeln",
+                    items: [
+                        {
+                            to: "docs/rules/general",
+                            label: "Allgemeine Regeln",
+                        },
+                        { to: "docs/rules/8ball", label: "8 Ball" },
+                        { to: "docs/rules/9ball", label: "9 Ball" },
+                    ],
+                    position: "left",
+                },
+                {
                     href: "https://github.com/mowi12/schuhzwerg-billard",
                     label: "GitHub",
                     position: "right",
