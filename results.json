@@ -14,9 +14,9 @@
         },
         {
             "name": "Pascalis",
-            "games": 37,
-            "wins": 24,
-            "elo": 1106
+            "games": 38,
+            "wins": 25,
+            "elo": 1118
         },
         {
             "name": "Stefan",
@@ -38,9 +38,9 @@
         },
         {
             "name": "Tim",
-            "games": 2,
+            "games": 3,
             "wins": 1,
-            "elo": 1007
+            "elo": 995
         },
         {
             "name": "Peter",
@@ -460,6 +460,13 @@
                 "Stefan"
             ],
             "winner": "Stefan"
+        },
+        {
+            "players": [
+                "Pascalis",
+                "Tim"
+            ],
+            "winner": "Pascalis"
         },
         {
             "players": [
