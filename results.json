@@ -53,18 +53,6 @@
             "games": 1,
             "wins": 0,
             "elo": 988
-        },
-        {
-            "name": "player1",
-            "games": 1,
-            "wins": 0,
-            "elo": 984
-        },
-        {
-            "name": "stoffi",
-            "games": 1,
-            "wins": 1,
-            "elo": 1016
         }
     ],
     "highscore": {
@@ -507,13 +495,6 @@
                 "Bianca"
             ],
             "winner": "Pascalis"
-        },
-        {
-            "players": [
-                "player1",
-                "stoffi"
-            ],
-            "winner": "stoffi"
         }
     ]
 }
