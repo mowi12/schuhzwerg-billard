@@ -2,9 +2,9 @@
     "players": [
         {
             "name": "Moritz",
-            "games": 29,
+            "games": 30,
             "wins": 19,
-            "elo": 1055
+            "elo": 1036
         },
         {
             "name": "Bianca",
@@ -26,21 +26,21 @@
         },
         {
             "name": "Stoffi",
-            "games": 14,
-            "wins": 12,
-            "elo": 1123
+            "games": 15,
+            "wins": 13,
+            "elo": 1132
         },
         {
             "name": "Flo",
-            "games": 3,
+            "games": 4,
             "wins": 0,
-            "elo": 959
+            "elo": 950
         },
         {
             "name": "Tim",
-            "games": 4,
-            "wins": 1,
-            "elo": 984
+            "games": 5,
+            "wins": 2,
+            "elo": 1003
         },
         {
             "name": "Peter",
@@ -523,6 +523,20 @@
                 "Pascalis"
             ],
             "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Stoffi",
+                "Flo"
+            ],
+            "winner": "Stoffi"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Tim"
+            ],
+            "winner": "Tim"
         }
     ]
 }
