@@ -15,8 +15,8 @@
         {
             "name": "Pascalis",
             "games": 61,
-            "wins": 40,
-            "elo": 1099
+            "wins": 39,
+            "elo": 1067
         },
         {
             "name": "Stefan",
@@ -27,8 +27,8 @@
         {
             "name": "Stoffi",
             "games": 16,
-            "wins": 13,
-            "elo": 1114
+            "wins": 14,
+            "elo": 1146
         },
         {
             "name": "Flo",
@@ -694,10 +694,10 @@
         },
         {
             "players": [
-                "Stoffi",
-                "Pascalis"
+                "Pascalis",
+                "Stoffi"
             ],
-            "winner": "Pascalis"
+            "winner": "Stoffi"
         }
     ]
 }
