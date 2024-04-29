@@ -20,17 +20,17 @@
         "@docusaurus/core": "3.2.1",
         "@docusaurus/preset-classic": "3.2.1",
         "@mdx-js/react": "^3.0.0",
-        "clsx": "^2.0.0",
+        "clsx": "^2.1.1",
         "prism-react-renderer": "^2.3.0",
-        "react": "^18.0.0",
-        "react-dom": "^18.0.0"
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
     },
     "devDependencies": {
         "@docusaurus/module-type-aliases": "3.2.1",
         "@docusaurus/tsconfig": "3.2.1",
         "@docusaurus/types": "3.2.1",
-        "@typescript-eslint/eslint-plugin": "^7.7.0",
-        "@typescript-eslint/parser": "^7.7.0",
+        "@typescript-eslint/eslint-plugin": "^7.7.1",
+        "@typescript-eslint/parser": "^7.7.1",
         "ajv-cli": "^5.0.0",
         "typescript": "~5.4.5"
     },
