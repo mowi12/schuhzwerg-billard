@@ -26,9 +26,9 @@
         },
         {
             "name": "Stoffi",
-            "games": 22,
+            "games": 23,
             "wins": 18,
-            "elo": 1137
+            "elo": 1115
         },
         {
             "name": "Flo",
@@ -53,6 +53,12 @@
             "games": 6,
             "wins": 0,
             "elo": 933
+        },
+        {
+            "name": "Niko",
+            "games": 1,
+            "wins": 1,
+            "elo": 1022
         }
     ],
     "highscore": {
@@ -796,6 +802,13 @@
                 "Stoffi"
             ],
             "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Stoffi",
+                "Niko"
+            ],
+            "winner": "Niko"
         }
     ]
 }
