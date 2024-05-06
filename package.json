@@ -30,7 +30,7 @@
         "@docusaurus/tsconfig": "3.3.2",
         "@docusaurus/types": "3.2.1",
         "@typescript-eslint/eslint-plugin": "^7.7.1",
-        "@typescript-eslint/parser": "^7.7.1",
+        "@typescript-eslint/parser": "^7.8.0",
         "ajv-cli": "^5.0.0",
         "typescript": "~5.4.5"
     },
