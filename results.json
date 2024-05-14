@@ -14,9 +14,9 @@
         },
         {
             "name": "Pascalis",
-            "games": 85,
-            "wins": 55,
-            "elo": 1097
+            "games": 87,
+            "wins": 57,
+            "elo": 1127
         },
         {
             "name": "Stefan",
@@ -26,9 +26,9 @@
         },
         {
             "name": "Stoffi",
-            "games": 27,
+            "games": 28,
             "wins": 22,
-            "elo": 1157
+            "elo": 1139
         },
         {
             "name": "Flo",
@@ -65,6 +65,12 @@
             "games": 1,
             "wins": 0,
             "elo": 986
+        },
+        {
+            "name": "69696969",
+            "games": 1,
+            "wins": 0,
+            "elo": 988
         }
     ],
     "highscore": {
@@ -983,6 +989,20 @@
                 "Pascalis"
             ],
             "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Pascalis",
+                "69696969"
+            ],
+            "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Pascalis",
+                "Stoffi"
+            ],
+            "winner": "Pascalis"
         }
     ]
 }
