@@ -56,9 +56,9 @@
         },
         {
             "name": "Niko",
-            "games": 9,
-            "wins": 6,
-            "elo": 1064
+            "games": 10,
+            "wins": 7,
+            "elo": 1077
         },
         {
             "name": "Philipp",
@@ -68,9 +68,9 @@
         },
         {
             "name": "69696969",
-            "games": 1,
+            "games": 2,
             "wins": 0,
-            "elo": 988
+            "elo": 975
         }
     ],
     "highscore": {
@@ -1052,6 +1052,13 @@
                 "Pascalis"
             ],
             "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Niko",
+                "69696969"
+            ],
+            "winner": "Niko"
         }
     ]
 }
