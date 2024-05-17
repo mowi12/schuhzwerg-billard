@@ -32,9 +32,9 @@
         },
         {
             "name": "Flo",
-            "games": 6,
+            "games": 8,
             "wins": 1,
-            "elo": 959
+            "elo": 928
         },
         {
             "name": "Tim",
@@ -50,9 +50,9 @@
         },
         {
             "name": "Player1",
-            "games": 6,
-            "wins": 0,
-            "elo": 933
+            "games": 7,
+            "wins": 1,
+            "elo": 950
         },
         {
             "name": "Niko",
@@ -68,9 +68,9 @@
         },
         {
             "name": "69696969",
-            "games": 2,
-            "wins": 0,
-            "elo": 975
+            "games": 3,
+            "wins": 1,
+            "elo": 989
         }
     ],
     "highscore": {
@@ -1066,6 +1066,20 @@
                 "Tim"
             ],
             "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Player1",
+                "Flo"
+            ],
+            "winner": "Player1"
+        },
+        {
+            "players": [
+                "69696969",
+                "Flo"
+            ],
+            "winner": "69696969"
         }
     ]
 }
