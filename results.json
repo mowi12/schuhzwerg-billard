@@ -2,15 +2,15 @@
     "players": [
         {
             "name": "Moritz",
-            "games": 69,
-            "wins": 38,
-            "elo": 1033
+            "games": 70,
+            "wins": 39,
+            "elo": 1042
         },
         {
             "name": "Bianca",
-            "games": 42,
+            "games": 43,
             "wins": 7,
-            "elo": 872
+            "elo": 863
         },
         {
             "name": "Pascalis",
@@ -1101,6 +1101,13 @@
                 "Pascalis"
             ],
             "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Bianca",
+                "Moritz"
+            ],
+            "winner": "Moritz"
         }
     ]
 }
