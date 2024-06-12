@@ -2,21 +2,21 @@
     "players": [
         {
             "name": "Moritz",
-            "games": 87,
-            "wins": 51,
-            "elo": 1133
+            "games": 89,
+            "wins": 53,
+            "elo": 1148
         },
         {
             "name": "Bianca",
-            "games": 52,
+            "games": 56,
             "wins": 8,
-            "elo": 842
+            "elo": 825
         },
         {
             "name": "Pascalis",
-            "games": 109,
-            "wins": 73,
-            "elo": 1157
+            "games": 112,
+            "wins": 76,
+            "elo": 1169
         },
         {
             "name": "Stefan",
@@ -32,9 +32,9 @@
         },
         {
             "name": "Flo",
-            "games": 9,
+            "games": 10,
             "wins": 2,
-            "elo": 945
+            "elo": 928
         },
         {
             "name": "Tim",
@@ -50,15 +50,15 @@
         },
         {
             "name": "Player1",
-            "games": 9,
-            "wins": 1,
-            "elo": 924
+            "games": 10,
+            "wins": 2,
+            "elo": 941
         },
         {
             "name": "Niko",
-            "games": 16,
+            "games": 17,
             "wins": 7,
-            "elo": 990
+            "elo": 980
         },
         {
             "name": "Philipp",
@@ -1309,6 +1309,48 @@
             "players": [
                 "Moritz",
                 "Bianca"
+            ],
+            "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Pascalis",
+                "Bianca"
+            ],
+            "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Pascalis",
+                "Bianca"
+            ],
+            "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Pascalis",
+                "Bianca"
+            ],
+            "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Bianca"
+            ],
+            "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Player1",
+                "Flo"
+            ],
+            "winner": "Player1"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Niko"
             ],
             "winner": "Moritz"
         }
