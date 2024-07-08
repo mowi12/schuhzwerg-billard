@@ -1,20 +1,18 @@
 export interface LeaderboardEntry {
-  place: number;
-  elo: number;
-  name: string;
-  winrate: number;
-  wins: number;
-  participations: number;
-}
-
-export interface Games {
-  id: number;
-  players: string[];
-  winner: string;
+    name: string;
+    elo: number;
+    lowest_elo: number;
+    highest_elo: number;
+    winrate: number;
+    games: number;
+    wins: number;
+    losses: number;
+    draws: number;
+    current_win_streak: number;
+    longest_win_streak: number;
 }
 
 export interface LeadboardData {
-  minimumParticipationThreshold: number;
-  singleLeaderboard: LeaderboardEntry[];
-  games: Games[];
+    minimumParticipationThreshold: number;
+    singleLeaderboard: LeaderboardEntry[];
 }

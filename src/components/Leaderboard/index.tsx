@@ -9,7 +9,19 @@ interface LeaderboardProps {
 
 type Order = "asc" | "desc";
 
-const headers = ["Platz", "Elo", "Name", "Winrate" /*, "Siege", "Teilnahmen"*/];
+const headers = [
+    "Name",
+    "Elo",
+    "Lowest Elo",
+    "Highest Elo",
+    "Winrate",
+    "Games Played",
+    "Wins",
+    "Losses",
+    "Draws",
+    "Win Streak",
+    "Longest Win Streak",
+];
 
 interface Key {
     name: keyof LeaderboardEntry;
@@ -18,7 +30,7 @@ interface Key {
 
 const keys: Key[] = [
     {
-        name: "place",
+        name: "name",
         order: "asc",
     },
     {
@@ -26,21 +38,41 @@ const keys: Key[] = [
         order: "desc",
     },
     {
-        name: "name",
-        order: "asc",
+        name: "lowest_elo",
+        order: "desc",
+    },
+    {
+        name: "highest_elo",
+        order: "desc",
     },
     {
         name: "winrate",
         order: "desc",
     },
-    // {
-    //     name: "wins",
-    //     order: "desc",
-    // },
-    // {
-    //     name: "participations",
-    //     order: "asc",
-    // },
+    {
+        name: "games",
+        order: "desc",
+    },
+    {
+        name: "wins",
+        order: "desc",
+    },
+    {
+        name: "losses",
+        order: "asc",
+    },
+    {
+        name: "draws",
+        order: "asc",
+    },
+    {
+        name: "current_win_streak",
+        order: "desc",
+    },
+    {
+        name: "longest_win_streak",
+        order: "desc",
+    },
 ];
 
 interface SortConfig {

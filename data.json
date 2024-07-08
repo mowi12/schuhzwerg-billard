@@ -1,0 +1,1010 @@
+{
+    "players": [
+        {
+            "name": "Moritz",
+            "games": 104,
+            "wins": 62,
+            "losses": 42,
+            "draws": 0,
+            "elo": 1142,
+            "lowest_elo": 1000,
+            "highest_elo": 1169,
+            "winrate": 0.6,
+            "current_win_streak": 1,
+            "longest_win_streak": 7
+        },
+        {
+            "name": "Bianca",
+            "games": 64,
+            "wins": 10,
+            "losses": 54,
+            "draws": 0,
+            "elo": 854,
+            "lowest_elo": 817,
+            "highest_elo": 1000,
+            "winrate": 0.16,
+            "current_win_streak": 1,
+            "longest_win_streak": 2
+        },
+        {
+            "name": "Pascalis",
+            "games": 128,
+            "wins": 86,
+            "losses": 42,
+            "draws": 0,
+            "elo": 1139,
+            "lowest_elo": 985,
+            "highest_elo": 1204,
+            "winrate": 0.67,
+            "current_win_streak": 0,
+            "longest_win_streak": 10
+        },
+        {
+            "name": "Stefan",
+            "games": 22,
+            "wins": 4,
+            "losses": 18,
+            "draws": 0,
+            "elo": 898,
+            "lowest_elo": 881,
+            "highest_elo": 1002,
+            "winrate": 0.18,
+            "current_win_streak": 0,
+            "longest_win_streak": 1
+        },
+        {
+            "name": "Stoffi",
+            "games": 34,
+            "wins": 26,
+            "losses": 8,
+            "draws": 0,
+            "elo": 1148,
+            "lowest_elo": 1000,
+            "highest_elo": 1166,
+            "winrate": 0.76,
+            "current_win_streak": 0,
+            "longest_win_streak": 11
+        },
+        {
+            "name": "Flo",
+            "games": 10,
+            "wins": 2,
+            "losses": 8,
+            "draws": 0,
+            "elo": 928,
+            "lowest_elo": 928,
+            "highest_elo": 1000,
+            "winrate": 0.2,
+            "current_win_streak": 0,
+            "longest_win_streak": 1
+        },
+        {
+            "name": "Tim",
+            "games": 11,
+            "wins": 3,
+            "losses": 8,
+            "draws": 0,
+            "elo": 975,
+            "lowest_elo": 975,
+            "highest_elo": 1021,
+            "winrate": 0.27,
+            "current_win_streak": 0,
+            "longest_win_streak": 2
+        },
+        {
+            "name": "Peter",
+            "games": 1,
+            "wins": 0,
+            "losses": 1,
+            "draws": 0,
+            "elo": 987,
+            "lowest_elo": 987,
+            "highest_elo": 1000,
+            "winrate": 0.0,
+            "current_win_streak": 0,
+            "longest_win_streak": 0
+        },
+        {
+            "name": "Player1",
+            "games": 10,
+            "wins": 2,
+            "losses": 8,
+            "draws": 0,
+            "elo": 941,
+            "lowest_elo": 924,
+            "highest_elo": 1000,
+            "winrate": 0.2,
+            "current_win_streak": 1,
+            "longest_win_streak": 1
+        },
+        {
+            "name": "Niko",
+            "games": 23,
+            "wins": 10,
+            "losses": 13,
+            "draws": 0,
+            "elo": 1022,
+            "lowest_elo": 980,
+            "highest_elo": 1078,
+            "winrate": 0.43,
+            "current_win_streak": 0,
+            "longest_win_streak": 4
+        },
+        {
+            "name": "Philipp",
+            "games": 1,
+            "wins": 0,
+            "losses": 1,
+            "draws": 0,
+            "elo": 986,
+            "lowest_elo": 986,
+            "highest_elo": 1000,
+            "winrate": 0.0,
+            "current_win_streak": 0,
+            "longest_win_streak": 0
+        },
+        {
+            "name": "69696969",
+            "games": 4,
+            "wins": 1,
+            "losses": 3,
+            "draws": 0,
+            "elo": 980,
+            "lowest_elo": 975,
+            "highest_elo": 1000,
+            "winrate": 0.25,
+            "current_win_streak": 0,
+            "longest_win_streak": 1
+        }
+    ],
+    "highscores": [
+        {
+            "name": "most_games",
+            "value": 128,
+            "player": "Pascalis"
+        },
+        {
+            "name": "most_wins",
+            "value": 86,
+            "player": "Pascalis"
+        },
+        {
+            "name": "highest_elo",
+            "value": 1204,
+            "player": "Pascalis"
+        },
+        {
+            "name": "longest_win_streak",
+            "value": 11,
+            "player": "Stoffi"
+        }
+    ],
+    "games": [
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Stefan"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Bianca", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Stoffi", "Bianca"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Stefan", "Flo"],
+            "winner": "Stefan"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Stefan"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Stoffi"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Stefan"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Stefan", "Pascalis"],
+            "winner": "Stefan"
+        },
+        {
+            "players": ["Stefan", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Stoffi", "Pascalis"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Stefan", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Stefan"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Bianca", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Stoffi", "Bianca"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Stoffi"],
+            "winner": "Moritz",
+            "draw": false
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis",
+            "draw": false
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Flo", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Moritz", "Tim"],
+            "winner": "Tim"
+        },
+        {
+            "players": ["Pascalis", "Stefan"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Stefan", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Peter", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Bianca", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Stoffi", "Flo"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Bianca"
+        },
+        {
+            "players": ["Stoffi", "Player1"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Pascalis", "Stefan"],
+            "winner": "Stefan"
+        },
+        {
+            "players": ["Pascalis", "Tim"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Tim"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Stoffi", "Tim"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Pascalis", "Stefan"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Player1", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Pascalis", "Stefan"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Player1", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Stefan", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Stoffi", "Flo"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Moritz", "Tim"],
+            "winner": "Tim"
+        },
+        {
+            "players": ["Pascalis", "Stefan"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Bianca"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Bianca"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Bianca"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Player1", "Flo"],
+            "winner": "Flo"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Bianca"
+        },
+        {
+            "players": ["Player1", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Bianca", "Pascalis"],
+            "winner": "Bianca"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Stoffi", "Stefan"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Stoffi", "Player1"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Pascalis", "Stoffi"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Stoffi", "Bianca"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Stoffi", "Flo"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Stoffi"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Stoffi", "Niko"],
+            "winner": "Niko"
+        },
+        {
+            "players": ["Bianca", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Philipp", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Niko"],
+            "winner": "Niko"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Stefan"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Tim"],
+            "winner": "Tim"
+        },
+        {
+            "players": ["Bianca", "Pascalis"],
+            "winner": "Bianca"
+        },
+        {
+            "players": ["Bianca", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Niko"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Stoffi", "Niko"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Stefan"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Stefan"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "69696969"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Stoffi"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Niko"],
+            "winner": "Niko"
+        },
+        {
+            "players": ["Moritz", "Niko"],
+            "winner": "Niko"
+        },
+        {
+            "players": ["Niko", "Stefan"],
+            "winner": "Niko"
+        },
+        {
+            "players": ["Pascalis", "Stoffi"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Niko"],
+            "winner": "Niko"
+        },
+        {
+            "players": ["Pascalis", "Niko"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Tim", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Niko", "69696969"],
+            "winner": "Niko"
+        },
+        {
+            "players": ["Pascalis", "Tim"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Player1", "Flo"],
+            "winner": "Player1"
+        },
+        {
+            "players": ["69696969", "Flo"],
+            "winner": "69696969"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Bianca", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Niko"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Bianca", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Niko", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Player1", "Flo"],
+            "winner": "Flo"
+        },
+        {
+            "players": ["Moritz", "Stefan"],
+            "winner": "Stefan"
+        },
+        {
+            "players": ["Bianca", "Niko"],
+            "winner": "Bianca"
+        },
+        {
+            "players": ["Bianca", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Tim", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Bianca", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Stefan"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Player1"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Niko"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Niko"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Niko"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Stoffi"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Stoffi", "69696969"],
+            "winner": "Stoffi"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Player1", "Flo"],
+            "winner": "Player1"
+        },
+        {
+            "players": ["Moritz", "Niko"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Tim"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Niko", "Moritz"],
+            "winner": "Niko"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Niko"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Bianca"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Stoffi"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Bianca", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Niko"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Niko"],
+            "winner": "Niko"
+        },
+        {
+            "players": ["Pascalis", "Moritz"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Bianca", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Bianca"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Niko", "Pascalis"],
+            "winner": "Niko"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Pascalis", "Bianca"],
+            "winner": "Bianca"
+        },
+        {
+            "players": ["Tim", "Moritz"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Niko"],
+            "winner": "Moritz"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Pascalis"
+        },
+        {
+            "players": ["Moritz", "Pascalis"],
+            "winner": "Moritz"
+        }
+    ]
+}

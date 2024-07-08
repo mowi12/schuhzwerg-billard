@@ -1,7 +1,7 @@
 {
     "name": "schuhzwerg-billard",
     "description": "Schuhzwerg Billard",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "private": true,
     "scripts": {
         "docusaurus": "docusaurus",
@@ -13,7 +13,6 @@
         "serve": "docusaurus serve",
         "write-translations": "docusaurus write-translations",
         "write-heading-ids": "docusaurus write-heading-ids",
-        "validate-json": "ajv -s results.schema.json -d results.json",
         "typecheck": "tsc"
     },
     "dependencies": {
