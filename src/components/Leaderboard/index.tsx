@@ -31,7 +31,7 @@ interface Key {
 const keys: Key[] = [
     {
         name: "name",
-        order: "asc",
+        order: "desc",
     },
     {
         name: "elo",
@@ -81,8 +81,8 @@ interface SortConfig {
 }
 
 let oldSortConfig: SortConfig = {
-    field: headers[0],
-    order: keys[0].order,
+    field: headers[1],
+    order: keys[1].order,
 };
 
 type ValueOf<T> = T[keyof T];
