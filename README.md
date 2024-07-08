@@ -17,14 +17,9 @@
 2. Run `npm run build` to build for production.
 3. Run `npm run serve` to test your build locally.
 
-### Developing the leaderboard plugin
-
-1. Run `npm install` to install the dependencies.
-2. Run `npm run validate-json` to validate the tournament data against the schema.
-
 ### Adding a new game
 
-`./game.py <Player1> <Player2> (-w <Player1|Player2>)`
+`./schuh.py <Player1> <Player2> (-w <Player1|Player2>)`
 
 The first two arguments declare the names of the players.
 The `-w W` argument is optional and is only appened if either one of the players won.
@@ -32,4 +27,4 @@ If the game ended in a draw, the argument if removed and a draw is added to the 
 
 ### Help
 
-Enter `./game.py -h` to show a list of available options.
+Enter `./schuh.py -h` to show a list of available options.
