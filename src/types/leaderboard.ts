@@ -1,4 +1,5 @@
 export interface LeaderboardEntry {
+    place: number;
     name: string;
     elo: number;
     lowest_elo: number;

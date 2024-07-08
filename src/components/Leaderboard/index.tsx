@@ -10,6 +10,7 @@ interface LeaderboardProps {
 type Order = "asc" | "desc";
 
 const headers = [
+    "Place",
     "Name",
     "Elo",
     "Lowest Elo",
@@ -29,6 +30,10 @@ interface Key {
 }
 
 const keys: Key[] = [
+    {
+        name: "place",
+        order: "asc",
+    },
     {
         name: "name",
         order: "desc",
@@ -81,8 +86,8 @@ interface SortConfig {
 }
 
 let oldSortConfig: SortConfig = {
-    field: headers[1],
-    order: keys[1].order,
+    field: headers[0],
+    order: keys[0].order,
 };
 
 type ValueOf<T> = T[keyof T];

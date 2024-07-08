@@ -65,6 +65,7 @@ function fillLeaderboardData(data: GameData): LeaderboardEntry[] {
 
     for (const player of data.players) {
         const entry: LeaderboardEntry = {
+            place: 0,
             name: player.name,
             elo: player.elo,
             lowest_elo: player.lowest_elo,
@@ -81,6 +82,11 @@ function fillLeaderboardData(data: GameData): LeaderboardEntry[] {
     }
 
     leaderboard.sort(sortLeaderBoard);
+
+    for (let i = 0; i < leaderboard.length; i++) {
+        leaderboard[i].place = i + 1;
+    }
+
     return leaderboard;
 }
 
