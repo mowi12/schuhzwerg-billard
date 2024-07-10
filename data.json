@@ -2,15 +2,15 @@
     "players": [
         {
             "name": "Moritz",
-            "games": 106,
-            "wins": 63,
+            "games": 107,
+            "wins": 64,
             "losses": 43,
             "draws": 0,
-            "elo": 1143,
+            "elo": 1159,
             "lowest_elo": 1000,
             "highest_elo": 1169,
-            "winrate": 0.59,
-            "current_win_streak": 1,
+            "winrate": 0.6,
+            "current_win_streak": 2,
             "longest_win_streak": 7
         },
         {
@@ -28,14 +28,14 @@
         },
         {
             "name": "Pascalis",
-            "games": 130,
+            "games": 131,
             "wins": 87,
-            "losses": 43,
+            "losses": 44,
             "draws": 0,
-            "elo": 1138,
+            "elo": 1122,
             "lowest_elo": 985,
             "highest_elo": 1204,
-            "winrate": 0.67,
+            "winrate": 0.66,
             "current_win_streak": 0,
             "longest_win_streak": 10
         },
@@ -160,7 +160,7 @@
     "highscores": [
         {
             "name": "most_games",
-            "value": 130,
+            "value": 131,
             "player": "Pascalis"
         },
         {
@@ -1630,6 +1630,13 @@
                 "Moritz"
             ],
             "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Pascalis"
+            ],
+            "winner": "Moritz"
         },
         {
             "players": [
