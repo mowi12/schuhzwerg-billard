@@ -28,15 +28,15 @@
         },
         {
             "name": "Pascalis",
-            "games": 131,
-            "wins": 87,
+            "games": 133,
+            "wins": 88,
             "losses": 44,
-            "draws": 0,
-            "elo": 1122,
+            "draws": 1,
+            "elo": 1126,
             "lowest_elo": 985,
             "highest_elo": 1204,
             "winrate": 0.66,
-            "current_win_streak": 0,
+            "current_win_streak": 1,
             "longest_win_streak": 10
         },
         {
@@ -80,15 +80,15 @@
         },
         {
             "name": "Tim",
-            "games": 11,
-            "wins": 3,
-            "losses": 8,
-            "draws": 0,
-            "elo": 975,
-            "lowest_elo": 975,
+            "games": 15,
+            "wins": 4,
+            "losses": 10,
+            "draws": 1,
+            "elo": 977,
+            "lowest_elo": 957,
             "highest_elo": 1021,
             "winrate": 0.27,
-            "current_win_streak": 0,
+            "current_win_streak": 1,
             "longest_win_streak": 2
         },
         {
@@ -119,14 +119,14 @@
         },
         {
             "name": "Niko",
-            "games": 23,
-            "wins": 10,
-            "losses": 13,
+            "games": 25,
+            "wins": 11,
+            "losses": 14,
             "draws": 0,
-            "elo": 1022,
+            "elo": 1016,
             "lowest_elo": 980,
             "highest_elo": 1078,
-            "winrate": 0.43,
+            "winrate": 0.44,
             "current_win_streak": 0,
             "longest_win_streak": 4
         },
@@ -160,12 +160,12 @@
     "highscores": [
         {
             "name": "most_games",
-            "value": 131,
+            "value": 133,
             "player": "Pascalis"
         },
         {
             "name": "most_wins",
-            "value": 87,
+            "value": 88,
             "player": "Pascalis"
         },
         {
@@ -1644,6 +1644,34 @@
                 "Pascalis"
             ],
             "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Pascalis",
+                "Tim"
+            ],
+            "winner": "Tim"
+        },
+        {
+            "players": [
+                "Pascalis",
+                "Tim"
+            ],
+            "winner": "Pascalis"
+        },
+        {
+            "players": [
+                "Niko",
+                "Tim"
+            ],
+            "winner": "Niko"
+        },
+        {
+            "players": [
+                "Niko",
+                "Tim"
+            ],
+            "winner": "Tim"
         }
     ]
 }
