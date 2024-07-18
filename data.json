@@ -54,14 +54,14 @@
         },
         {
             "name": "Stoffi",
-            "games": 34,
+            "games": 35,
             "wins": 26,
-            "losses": 8,
+            "losses": 9,
             "draws": 0,
-            "elo": 1148,
+            "elo": 1124,
             "lowest_elo": 1000,
             "highest_elo": 1166,
-            "winrate": 0.76,
+            "winrate": 0.74,
             "current_win_streak": 0,
             "longest_win_streak": 11
         },
@@ -80,15 +80,15 @@
         },
         {
             "name": "Tim",
-            "games": 17,
-            "wins": 5,
+            "games": 18,
+            "wins": 6,
             "losses": 11,
             "draws": 1,
-            "elo": 970,
+            "elo": 994,
             "lowest_elo": 957,
             "highest_elo": 1021,
-            "winrate": 0.29,
-            "current_win_streak": 1,
+            "winrate": 0.33,
+            "current_win_streak": 2,
             "longest_win_streak": 2
         },
         {
@@ -1684,6 +1684,13 @@
             "players": [
                 "Bianca",
                 "Tim"
+            ],
+            "winner": "Tim"
+        },
+        {
+            "players": [
+                "Tim",
+                "Stoffi"
             ],
             "winner": "Tim"
         }
