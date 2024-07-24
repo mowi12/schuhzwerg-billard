@@ -155,6 +155,32 @@
             "winrate": 0.25,
             "current_win_streak": 0,
             "longest_win_streak": 1
+        },
+        {
+            "name": "69696996",
+            "games": 1,
+            "wins": 0,
+            "losses": 1,
+            "draws": 0,
+            "elo": 984,
+            "lowest_elo": 984,
+            "highest_elo": 1000,
+            "winrate": 0.0,
+            "current_win_streak": 0,
+            "longest_win_streak": 0
+        },
+        {
+            "name": "Der_Boss",
+            "games": 1,
+            "wins": 1,
+            "losses": 0,
+            "draws": 0,
+            "elo": 1016,
+            "lowest_elo": 1000,
+            "highest_elo": 1016,
+            "winrate": 1.0,
+            "current_win_streak": 1,
+            "longest_win_streak": 1
         }
     ],
     "highscores": [
@@ -1700,6 +1726,13 @@
                 "Tim"
             ],
             "winner": "Tim"
+        },
+        {
+            "players": [
+                "69696996",
+                "Der_Boss"
+            ],
+            "winner": "Der_Boss"
         }
     ]
 }
