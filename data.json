@@ -2,24 +2,24 @@
     "players": [
         {
             "name": "Moritz",
-            "games": 107,
-            "wins": 64,
+            "games": 111,
+            "wins": 68,
             "losses": 43,
             "draws": 0,
-            "elo": 1159,
+            "elo": 1190,
             "lowest_elo": 1000,
-            "highest_elo": 1169,
-            "winrate": 0.6,
-            "current_win_streak": 2,
+            "highest_elo": 1190,
+            "winrate": 0.61,
+            "current_win_streak": 6,
             "longest_win_streak": 7
         },
         {
             "name": "Bianca",
-            "games": 65,
+            "games": 66,
             "wins": 10,
-            "losses": 55,
+            "losses": 56,
             "draws": 0,
-            "elo": 843,
+            "elo": 839,
             "lowest_elo": 817,
             "highest_elo": 1000,
             "winrate": 0.15,
@@ -80,15 +80,15 @@
         },
         {
             "name": "Tim",
-            "games": 19,
+            "games": 22,
             "wins": 7,
-            "losses": 11,
+            "losses": 14,
             "draws": 1,
-            "elo": 1016,
+            "elo": 989,
             "lowest_elo": 957,
             "highest_elo": 1021,
-            "winrate": 0.37,
-            "current_win_streak": 3,
+            "winrate": 0.32,
+            "current_win_streak": 0,
             "longest_win_streak": 3
         },
         {
@@ -1753,6 +1753,34 @@
                 "Stefaboss"
             ],
             "winner": "Stefaboss"
+        },
+        {
+            "players": [
+                "Bianca",
+                "Moritz"
+            ],
+            "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Tim"
+            ],
+            "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Tim"
+            ],
+            "winner": "Moritz"
+        },
+        {
+            "players": [
+                "Moritz",
+                "Tim"
+            ],
+            "winner": "Moritz"
         }
     ]
 }
